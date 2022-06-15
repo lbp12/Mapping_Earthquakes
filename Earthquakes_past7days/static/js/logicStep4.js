@@ -65,7 +65,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   }).addTo(earthquakes);
 
     // Then we add the earthquake layer to our map.
-    earthquakes.addTo(map);
+    earthquakes.addTo(map); 
 });
   
 // This function returns the style data for each of the earthquakes we plot on
